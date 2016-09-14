@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../../lib/jquery-1.11.0.js"></script>
+    <script src="closures.js"></script>
+</head>
+<body>
+<script>
+    setTimeout(function () {
+        $("#div1").append("<button id='myButton'>Test</button>");
+    }, 4000);
+</script>
+<div id="div1">div1 text</div>
+<div id="div2">div2 text</div>
+<textarea readonly="" rows="4" cols="50" id="chatTextArea"></textarea>
+</body>
+</html>

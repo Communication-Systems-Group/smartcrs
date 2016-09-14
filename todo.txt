@@ -1,0 +1,161 @@
+[High Priority]
+
+[Discuss]
+
+[Done]
+- Documentation: Guided website tour
+- Lecturer: Make connect button more noticeable
+- Students: Improve save functionality
+    - Arrangement bootstrap
+- Students: dismissing responseWindow with ESC doesn't result in calling onDestroy --> next question isn't shown
+- Students: responseWindow should not be closed until answer has been received by lecturer --> new msgType
+- questions aren't send to latecomer in the asked order but in table order
+- Students can select multiple MC answers
+- Votes/Students header vertical
+- Automate deployment with grunt
+- QuestionsQueue: Students dismisses Q --> loses all other questions
+    - getAllSharedQuestions: Doesn't return jQuery objects --> student reconnects after dismissing questions --> error
+- Students should see colored round button with numConnected on-hover instead of WLAN
+- Students selectRoomWindow: Automatically select first room
+- Start Lecture button only triggers on button text
+- Redesign Start Lecture button to be more noticeable
+- success alert when trying to add duplicate question to qControlTable
+- Replaced webix questionsControlTable with bootstrap table
+- RatingForms aren't validated on edit
+- FF doesn't allow double values in number input fields --> can't be retrieved with JS
+- If lecturer leaves site before saving --> popup warning
+- Refactor selectRoomWindow: replace deferred with event for label
+- questionsControlTable: line-height on multi-line text
+- Edit question --> apply. Add new question --> Fields weren't reset
+- Close modal when question field is dirty: Modal asks if user really wants to discard question.
+- Loading comments doesn't work --> ObjectURL
+- Implement multi-questions: share several msgs at once. Only show first question. When window closed, show next question in queue.
+- GUI
+    - Major overhaul
+    - Duplicate question can't be added to questionControlTable anymore
+    - Pressing enter in #fieldThreshold would result in page reload.
+    - After cancelled edit, forms stay dirty
+    - Non-invasive error msg if lecturer uploads files before being connected --> ballons
+    - At least one mc option must be true
+    - Display time of questionControlTable footer was too short
+    - Enhance form validation for question types
+    - 4th notification option: visual & sound notification
+    - Single question textarea shared by all question types
+    -   Rating questions
+        - solution field
+            - should be optional number input.
+            - Validate that user input is in range of slider
+            - Always visible. Remove slide animation.
+- Notification popup: aquire permisson on selection
+
+- SelectRoomWindow: improve user experience
+    - If there is no roomPwd: Don't show roomPwd field in SelectRoomWindow
+    - enter hotkey for joining
+- Lecturer should be able to put up slides before starting the lecture.
+- Lecturer adminPwd: Login with wrong pwd was possible
+
+- ChartWindow: Open questions: Don't display show solution and stats display select dropdown
+- LocalStorage: Questions should also be cleared after some time.
+- Save lecture popup
+    - Save questions
+        - questions only
+        - stats & questions
+- Connect button should switch to disconnected only after successfull connection
+- Student should be able to cancel question popup
+- QuestionsControlTable: votes/students field should be empty after load.
+- FF would ask to save XLS although no stats are available
+- Student voted display: instead of # currently connected peers, use highest # connected peers, if # connected is lower
+- QuestionsControlTable: Show question in a footer when hovering over question
+- Bugfix: Refreshing browser then login with new tab would result in 2 peers sharing the same nick.
+- Automatically reconnect on browser refresh
+- Register if there have been questions during disconnect that haven't been answered.
+- Show if question has been shared
+- Show how many answers are available / - Display when students have answered a question
+- Notifications API.
+- Audio notification doesn't work
+- Test if another peer can hijack nickname
+- Same peer can login multiple times
+- Students: selectRoomWindow: Join button stays disabled on invalid nickname
+- Student may not pick "Lecturer" as nickname
+- Open Questions: Displayed as list
+- Java Selenium Test for answering lecturer questions
+- Student should be able to save data at all times
+- Lecturer refreshes
+    - Student waits till selectRoomWindow reappears.
+            - Refreshes & joins
+            - Uncaught InvalidStateError: Failed to execute 'createDatachannel' on 'RTCPeerConnection': The RTCPeerConnection's signalingState is 'closed'.
+- Students: Join room button isn't disabled after click
+- favicon
+- Student reconnects to same lecturer after lecturer leaves
+    --> lecturer sees duplicate entry error from peerTableMgr
+    --> student can't enter new nickname because logged in view hasn't been removed
+- Export stats to Excel
+- Lecturer quits --> student should see roomSelectWindow
+- Add checkbox to toggle show stats correct/incorrect answers
+- A student can accidentally vote several times for the same question.
+- Lecturer should enter password --> Prevents him from being kicked out
+    - Add default url redirecter for students
+- Students: Trying to answer a second rating question: Failed to execute 'appendChild' on 'Node'
+- JQuery-Comments Refactoring:
+    - Threshold functionallity
+    - When student sends a msg, it needs to be modified @ lecturer & then replaced at the student's side.
+        --> comment ids or the created date might be slightly different
+    - If student sends comment, the sendername should stay YOU
+    - Student should enter nickname at website load
+        - Nickname input field should not appear until connection to lecturer has been established
+        - peerTableMgr should show nicknames as well
+    - Sending multiple files at once corrupts the urls
+    - Files aren't displayed for newly connected students
+    - FF: Clicking on file results in overly long blob filename
+- # connected peers not updated on disconnect
+- kick functionality not working
+- GetAllMsgsCB not working with files
+- Generated URL is displayed instead of filename
+- when student sends msg it shows '...Your comment is being processed...' at the lecturer side as well.
+- File can't be opened on student side
+- Large file cannot be opened after transfer
+- Extend metadata in SimpleWebRTC to contain msgTypes
+- Question share button
+    - not visible under FF Win8
+- Students: window for responding to lecturer questions:
+    - can't scroll down if there are many answer options in mc question
+    - scrolling in question text from lecturer doesn't work
+    - lecturer question text doesn't wrap if very long
+- server.js port isn't read from settings.json
+- New webix version leads to wrongly sized question windows for students
+- Question share button should be disabled for 5 secs to avoid sending same q multiple times
+    - same for File share button
+- Can the app handle more than 1 correct mc question?
+- Remove LecturerId from chat
+- webRTC.js --> How to simplify IP & Port changes? GUI?
+- WebRTC --> Why is it so slow?
+- Forms look minimalistic
+- Order of student questions
+    - from alphabetically to newest first
+- Charts stats labels would overflow if too long
+- Table text overlay would hide stats table
+- Layout is not aligned on mobile phone
+- Tooltip for share button shows stop info
+- rename Chat to notes
+- Question share button can be pressed although no students connected
+- Save lecture without lecturerField --> input popup
+- Editing Questions: Changes to the correct item must be reflected in the "solution" variable
+- Lecturer could be notified multiple times by same question
+- Signalling over Websockets works
+- Wenn Threshold erreicht wird ton nur einmal abgespielt
+- Start/Stopp Funktionalität für questionsControlTable
+- Notification Settings mit JavaScript implementieren.
+- Nur einmal auf studentMessage voten
+- Duplikate in Tables handlen
+- LecturerRun Umbau - Design muss übersichtlich bleiben
+- NodeJS mit Websockets statt firebase
+- Stats-Format klarer strukturiert
+- LecturerRun Overlay geht nicht weg, wenn inzwischen upvotes eingegangen sind
+- Students können auf Fragen der Mitstudierenden antworten
+- PeerTable soll nur Peers zurückgeben, die auch wirklich da sind.
+- WebRTC: one-to-many festgelegt
+- Charts zeigen Lösungen mit an
+- LecturerRun overlay ist über stats popup
+- LecturerRun muss stats abspeichern können.
+- LecturerRun Filter Funktion auf Liste als Threshold
+- Students responseWindow. Es müssen mehrere Fenster gleichzeitig offen sein können für den Fall, das Lecturer schneller Fragen schickt als Student antwortet.

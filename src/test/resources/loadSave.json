@@ -1,0 +1,187 @@
+{
+  "threshold": "50",
+  "thresholdType": "Percent",
+  "notification": "Show Popup",
+  "questions": [
+    {
+      "type": "Rating",
+      "question": "editedRatingQ",
+      "solution": 40,
+      "scaleStart": 20,
+      "scaleEnd": 40,
+      "scaleStep": 10,
+      "numAnswersCollected": ""
+    },
+    {
+      "type": "Mc",
+      "question": "mcQuestion from Save 3",
+      "solution": [
+        "New Options #1",
+        "New Options #3",
+        "New Options #5"
+      ],
+      "possibleAnswers": [
+        {
+          "answer": "New Options #1",
+          "correct": true
+        },
+        {
+          "answer": "New Options #2",
+          "correct": false
+        },
+        {
+          "answer": "New Options #3",
+          "correct": true
+        },
+        {
+          "answer": "New Options #4",
+          "correct": false
+        },
+        {
+          "answer": "New Options #5",
+          "correct": true
+        },
+        {
+          "answer": "New Options #6",
+          "correct": false
+        }
+      ],
+      "numAnswersCollected": ""
+    },
+    {
+      "type": "Open",
+      "question": "openQuestion",
+      "solution": "Dü Änswer",
+      "numAnswersCollected": ""
+    }
+  ],
+  "lecturerQuestionStats": {
+    "customRatingQuestion": {
+      "questionID": "customRatingQuestion",
+      "peerIDsVoted": [],
+      "studentAnswers": [
+        {
+          "answerID": 1,
+          "numVotes": 0
+        },
+        {
+          "answerID": 6,
+          "numVotes": 1
+        },
+        {
+          "answerID": 11,
+          "numVotes": 0
+        },
+        {
+          "answerID": 16,
+          "numVotes": 0
+        },
+        {
+          "answerID": 21,
+          "numVotes": 0
+        },
+        {
+          "answerID": 26,
+          "numVotes": 0
+        },
+        {
+          "answerID": 31,
+          "numVotes": 0
+        },
+        {
+          "answerID": 36,
+          "numVotes": 0
+        },
+        {
+          "answerID": 40,
+          "numVotes": 0
+        }
+      ],
+      "solution": 40,
+      "type": "Rating"
+    },
+    "customMcQuestion": {
+      "questionID": "customMcQuestion",
+      "peerIDsVoted": [],
+      "studentAnswers": [
+        {
+          "answerID": "answerOption #1",
+          "numVotes": 0
+        },
+        {
+          "answerID": "answerOption #2",
+          "numVotes": 0
+        },
+        {
+          "answerID": "answerOption #3",
+          "numVotes": 0
+        },
+        {
+          "answerID": "answerOption #4",
+          "numVotes": 1
+        }
+      ],
+      "solution": [
+        "answerOption #3"
+      ],
+      "type": "Mc"
+    },
+    "openQuestion": {
+      "questionID": "openQuestion",
+      "peerIDsVoted": [],
+      "studentAnswers": [
+        {
+          "answerID": "Dü Änswer",
+          "numVotes": 0
+        },
+        {
+          "answerID": "openAnswer",
+          "numVotes": 1
+        }
+      ],
+      "solution": "Dü Änswer",
+      "type": "Open"
+    }
+  },
+  "comments": [
+    {
+      "id": "c1",
+      "parent": null,
+      "created": "",
+      "content": "10kb.txt",
+      "fullname": "Lecturer",
+      "profilePictureURL": "",
+      "createdByCurrentUser": false,
+      "upvoteCount": 0,
+      "userHasUpvoted": false,
+      "file": {},
+      "fileURL": "\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n\"This is just a sample line appended to create a big file.. \" \r\n",
+      "fileMimeType": "text/plain",
+      "childs": []
+    },
+    {
+      "id": "c2",
+      "parent": null,
+      "created": "",
+      "content": "Thüs ös ä cômmênt",
+      "fullname": "Lecturer",
+      "profilePictureURL": "",
+      "createdByCurrentUser": false,
+      "upvoteCount": 0,
+      "userHasUpvoted": false,
+      "childs": []
+    },
+    {
+      "id": "c3",
+      "parent": null,
+      "created": "",
+      "content": "Comment from save2",
+      "fullname": "Lecturer",
+      "profilePictureURL": "",
+      "createdByCurrentUser": false,
+      "upvoteCount": 0,
+      "userHasUpvoted": false,
+      "childs": []
+    }
+  ]
+}

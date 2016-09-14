@@ -1,0 +1,106 @@
+{
+  "lecturerQuestionStats": {
+    "MCQuestion": {
+      "questionID": "MCQuestion",
+      "peerIDsVoted": [
+        "zNslht_cz1CQzi5lAAAB",
+        "e_PVgljA45HfJMFWAAAD"
+      ],
+      "studentAnswers": [
+        {
+          "answerID": "AnswerOption1",
+          "numVotes": 1
+        },
+        {
+          "answerID": "AnswerOption2",
+          "numVotes": 0
+        },
+        {
+          "answerID": "AnswerOption3",
+          "numVotes": 1
+        },
+        {
+          "answerID": "AnswerOption4",
+          "numVotes": 0
+        }
+      ],
+      "solution": [
+        "AnswerOption1"
+      ],
+      "type": "Mc"
+    },
+    "RatingQuestion": {
+      "questionID": "RatingQuestion",
+      "peerIDsVoted": [
+        "e_PVgljA45HfJMFWAAAD"
+      ],
+      "studentAnswers": [
+        {
+          "answerID": 1,
+          "numVotes": 0
+        },
+        {
+          "answerID": 2,
+          "numVotes": 0
+        },
+        {
+          "answerID": 3,
+          "numVotes": 0
+        },
+        {
+          "answerID": 4,
+          "numVotes": 1
+        },
+        {
+          "answerID": 5,
+          "numVotes": 0
+        },
+        {
+          "answerID": 6,
+          "numVotes": 0
+        },
+        {
+          "answerID": 7,
+          "numVotes": 0
+        },
+        {
+          "answerID": 8,
+          "numVotes": 0
+        },
+        {
+          "answerID": 9,
+          "numVotes": 0
+        },
+        {
+          "answerID": 10,
+          "numVotes": 0
+        }
+      ],
+      "solution": "3",
+      "type": "Rating"
+    },
+    "OpenQuestion": {
+      "questionID": "OpenQuestion",
+      "peerIDsVoted": [
+        "zNslht_cz1CQzi5lAAAB",
+        "e_PVgljA45HfJMFWAAAD"
+      ],
+      "studentAnswers": [
+        {
+          "answerID": "OptionalSolution",
+          "numVotes": 0
+        },
+        {
+          "answerID": "a",
+          "numVotes": 1
+        },
+        {
+          "answerID": "c",
+          "numVotes": 1
+        }
+      ],
+      "solution": "OptionalSolution",
+      "type": "Open"
+    }
+  }
+}

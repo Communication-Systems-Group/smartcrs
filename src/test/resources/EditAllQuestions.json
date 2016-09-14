@@ -1,0 +1,47 @@
+{
+  "threshold": "0",
+  "thresholdType": "Percent",
+  "notification": "Play Sound",
+  "questions": [
+    {
+      "type": "Mc",
+      "question": "Edited MC Question #1",
+      "solution": [
+        "newOption #1",
+        "newOption #3"
+      ],
+      "possibleAnswers": [
+        {
+          "answer": "newOption #1",
+          "correct": true
+        },
+        {
+          "answer": "newOption #2",
+          "correct": false
+        },
+        {
+          "answer": "newOption #3",
+          "correct": true
+        }
+      ],
+      "numAnswersCollected": ""
+    },
+    {
+      "type": "Open",
+      "question": "Edited Open Question #1",
+      "solution": "Edited Open Answer #1",
+      "numAnswersCollected": ""
+    },
+    {
+      "type": "Rating",
+      "question": "Edited Rating Question #1",
+      "solution": "",
+      "scaleStart": 10,
+      "scaleEnd": 100,
+      "scaleStep": 15,
+      "numAnswersCollected": ""
+    }
+  ],
+  "lecturerQuestionStats": {},
+  "comments": []
+}

@@ -1,0 +1,5 @@
+{
+  "threshold": "15",
+  "thresholdType": "Percent",
+  "notification": "Play Sound"
+}

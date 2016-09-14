@@ -1,0 +1,38 @@
+{
+  "questions": [
+    {
+      "type": "Open",
+      "question": "A Public Health Institute study released in April showed that 95% of school districts in this state sell fast food items to the students. What three fast-food providers rank as the top brands sold in California schools?",
+      "solution": "TACO BELL / SUBWAY / DOMINO'S"
+    },
+    {
+      "type": "Mc",
+      "question": "Which 5-letter word can refer to a spicy Latin dance or a spicy Latin sauce?",
+      "solution": [
+        "SALSA"
+      ],
+      "possibleAnswers": [
+        {
+          "answer": "SALSA",
+          "correct": true
+        },
+        {
+          "answer": "ALSAS",
+          "correct": false
+        },
+        {
+          "answer": "SASLA",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "type": "Rating",
+      "question": "When the product which we call ice cream first made its appearance in the English language, around the year 1673, it wasn't called ice cream, as we know it today. What did it cost back then in USD?",
+      "solution": 10,
+      "scaleStart": 5,
+      "scaleEnd": 25,
+      "scaleStep": 5
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "threshold": "0",
+  "thresholdType": "Percent",
+  "notification": "Play Sound",
+  "questions": [
+    {
+      "type": "mc",
+      "question": "Edited MC Question #1",
+      "solution": [
+        "newOption #1",
+        "newOption #3"
+      ],
+      "possibleAnswers": [
+        {
+          "answer": "newOption #1",
+          "correct": true
+        },
+        {
+          "answer": "newOption #2",
+          "correct": false
+        },
+        {
+          "answer": "newOption #3",
+          "correct": true
+        }
+      ],
+      "constructor": "function McQuestion() {\n        this.type = \"mc\";\n\n    }",
+      "index": 1
+    },
+    {
+      "type": "open",
+      "question": "Edited Open Question #1",
+      "solution": "Edited Open Answer #1",
+      "constructor": "function OpenQuestion() {\n        this.type = \"open\";\n\n    }",
+      "index": 2
+    },
+    {
+      "type": "scale",
+      "question": "Edited Rating Question #1",
+      "solution": "",
+      "scaleStart": 10,
+      "scaleEnd": 100,
+      "scaleStep": 15,
+      "constructor": "function RatingQuestion() {\n        this.type = \"scale\";\n    }",
+      "index": 3
+    }
+  ],
+  "lecturerQuestionStats": {},
+  "comments": []
+}

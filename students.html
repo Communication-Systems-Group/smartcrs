@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>SmartCRS</title>
+
+    <link href="js/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="js/lib/webix/codebase/skins/webix_air_smartCRS.css" rel="stylesheet" type="text/css">
+    <link href="css/external/nouislider.css" rel="stylesheet" type="text/css">
+    <link href="js/lib/jquery-comments-1.1.0/css/jquery-comments.css" rel="stylesheet" type="text/css">
+    <link href="css/smartCRS.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16"/>
+</head>
+<body>
+
+<!-- Used to identify student side in start.js -->
+<div id="studentID"></div>
+<!-- Used for binding connection events to a handler -->
+<div id="connectionEvents" class="displayNone"></div>
+<div class="container-fluid" id="studentsMainContainer">
+    <div class="row">
+        <div class="col-md-12">
+            <button type="submit" id="saveDataButton" class="btn btn-primary" style="margin-bottom: 20px;" disabled>Save
+                Asked Questions to File
+            </button>
+            <div id="connectionStatusIcon" class="badge round-badge disconnected pull-right"
+                 title="Refresh your browser if you get disconnected."> </div>
+        </div>
+        <div class="col-md-12">
+            <div id="comments-container"></div>
+        </div>
+        <!-- sliderDiv is dynamically loaded into a window by responseWindow.js -->
+        <div id="sliderDiv" class="displayNone">
+            <table class="table">
+                <tr>
+                    <td width="70 pixels">
+                        <label id="labelSliderStart"></label>
+                    </td>
+                    <td>
+                        <div id="slider"></div> <!-- This is the placeholder for the slider -->
+                    </td>
+                    <td width="70 pixels">
+                        <label id="labelSliderEnd"></label>
+                    </td>
+                </tr>
+            </table>
+            <div id="sliderStatusLabel" tabindex="0" align="center"></div>
+        </div>
+    </div>
+</div>
+
+<script data-main="js/main.js" src="js/lib/require.js"></script>
+</body>
+</html>

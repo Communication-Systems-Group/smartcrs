@@ -1,0 +1,153 @@
+{
+  "threshold": "15",
+  "thresholdType": "Percent",
+  "notification": "Play Sound",
+  "questions": [
+    {
+      "type": "Mc",
+      "question": "MC Question",
+      "solution": [
+        "Answer Option 1"
+      ],
+      "possibleAnswers": [
+        {
+          "answer": "Answer Option 1",
+          "correct": true
+        },
+        {
+          "answer": "Answer Option 2",
+          "correct": false
+        },
+        {
+          "answer": "Answer Option 3",
+          "correct": false
+        },
+        {
+          "answer": "Answer Option 4",
+          "correct": false
+        }
+      ],
+      "numAnswersCollected": "2/3"
+    },
+    {
+      "type": "Rating",
+      "question": "Rating Question",
+      "solution": "3",
+      "scaleStart": 1,
+      "scaleEnd": 10,
+      "scaleStep": 1,
+      "numAnswersCollected": "1/3"
+    },
+    {
+      "type": "Open",
+      "question": "Open Question",
+      "solution": "Optional Solution",
+      "numAnswersCollected": "2/3"
+    }
+  ],
+  "lecturerQuestionStats": {
+    "MC Question": {
+      "questionID": "MC Question",
+      "peerIDsVoted": [
+        "zNslht_cz1CQzi5lAAAB",
+        "e_PVgljA45HfJMFWAAAD"
+      ],
+      "studentAnswers": [
+        {
+          "answerID": "Answer Option 1",
+          "numVotes": 1
+        },
+        {
+          "answerID": "Answer Option 2",
+          "numVotes": 0
+        },
+        {
+          "answerID": "Answer Option 3",
+          "numVotes": 1
+        },
+        {
+          "answerID": "Answer Option 4",
+          "numVotes": 0
+        }
+      ],
+      "solution": [
+        "Answer Option 1"
+      ],
+      "type": "Mc"
+    },
+    "Rating Question": {
+      "questionID": "Rating Question",
+      "peerIDsVoted": [
+        "e_PVgljA45HfJMFWAAAD"
+      ],
+      "studentAnswers": [
+        {
+          "answerID": 1,
+          "numVotes": 0
+        },
+        {
+          "answerID": 2,
+          "numVotes": 0
+        },
+        {
+          "answerID": 3,
+          "numVotes": 0
+        },
+        {
+          "answerID": 4,
+          "numVotes": 1
+        },
+        {
+          "answerID": 5,
+          "numVotes": 0
+        },
+        {
+          "answerID": 6,
+          "numVotes": 0
+        },
+        {
+          "answerID": 7,
+          "numVotes": 0
+        },
+        {
+          "answerID": 8,
+          "numVotes": 0
+        },
+        {
+          "answerID": 9,
+          "numVotes": 0
+        },
+        {
+          "answerID": 10,
+          "numVotes": 0
+        }
+      ],
+      "solution": "3",
+      "type": "Rating"
+    },
+    "Open Question": {
+      "questionID": "Open Question",
+      "peerIDsVoted": [
+        "zNslht_cz1CQzi5lAAAB",
+        "e_PVgljA45HfJMFWAAAD"
+      ],
+      "studentAnswers": [
+        {
+          "answerID": "Optional Solution",
+          "numVotes": 0
+        },
+        {
+          "answerID": "a",
+          "numVotes": 1
+        },
+        {
+          "answerID": "c",
+          "numVotes": 1
+        }
+      ],
+      "solution": "Optional Solution",
+      "type": "Open"
+    }
+  },
+  "comments": []
+}

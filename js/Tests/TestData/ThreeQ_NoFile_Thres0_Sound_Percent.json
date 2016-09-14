@@ -1,0 +1,45 @@
+{
+  "threshold": "0",
+  "thresholdType": "Percent",
+  "notification": "Play Sound",
+  "questions": [
+    {
+      "type": "open",
+      "question": "Open Question #1",
+      "solution": "Answer: Open Question #1",
+      "constructor": "function OpenQuestion() {\n        this.type = \"open\";\n\n    }",
+      "index": 1
+    },
+    {
+      "type": "scale",
+      "question": "Rating Question #1",
+      "solution": "",
+      "scaleStart": 1,
+      "scaleEnd": 10,
+      "scaleStep": 1,
+      "constructor": "function RatingQuestion() {\n        this.type = \"scale\";\n    }",
+      "index": 2
+    },
+    {
+      "type": "mc",
+      "question": "MC Question #1",
+      "solution": [
+        "Answer Option #1"
+      ],
+      "possibleAnswers": [
+        {
+          "answer": "Answer Option #1",
+          "correct": true
+        },
+        {
+          "answer": "Answer Option #2",
+          "correct": false
+        }
+      ],
+      "constructor": "function McQuestion() {\n        this.type = \"mc\";\n\n    }",
+      "index": 3
+    }
+  ],
+  "lecturerQuestionStats": {},
+  "comments": []
+}

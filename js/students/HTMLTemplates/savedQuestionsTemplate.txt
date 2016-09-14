@@ -1,0 +1,50 @@
+<div>
+<script id="saveLecturerQuestionsTemplate" type="text/x-handlebars-template">
+    <div class="container-fluid">
+        <div class="row text-center">
+        <div class="col-md-12">
+            <h1><u>Lecturer Questions</u></h1>
+        </div>
+
+            {{#each this}}
+            <div class="row text-center">
+            {{#if this.possibleAnswers}}
+            <div class="col-md-12 mcCol">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><h3>{{this.question}}</h3></div>
+                    <div class="panel-body">
+                        <div class="list-group btn-group">
+                            {{#each this.possibleAnswers}}
+                            <button type="button" class="list-group-item">{{this}}</button>
+                            {{/each}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{else if this.scaleStart}}
+            <div class="col-md-12 ratingCol">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><h3>{{this.question}}</h3></div>
+                    <div class="panel-body">
+                        <label id="rangeInputLabel" for="rangeInput">{{this.scaleStart}}-{{this.scaleEnd}}, step-size:
+                            {{this.scaleStep}}</label>
+                        <input id="rangeInput" type="range" min="{{this.scaleStart}}" max="{{this.scaleEnd}}" step="{{this.scaleStep}}"
+                               oninput="rangeOutput.value=value"/>
+                        <output id="rangeOutput"></output>
+                    </div>
+                </div>
+            </div>
+            {{else}}
+            <div class="col-md-12 openCol">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><h3>{{this.question}}</h3></div>
+                </div>
+            </div>
+            {{/if}}
+            </div>
+            {{/each}}
+
+        </div>
+    </div>
+</script>
+</div>

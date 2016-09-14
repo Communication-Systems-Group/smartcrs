@@ -1,0 +1,28 @@
+[{
+  "questionID": "WebRTC...",
+  "peerIDsVoted": [5007237],
+  "studentAnswers": [{
+    "answerID": "...requires browser plugins",
+    "numVotes": 0
+  }, {
+    "answerID": "..is a client-server API",
+    "numVotes": 0
+  }, {
+    "answerID": "...enables browsers to establish a direct P2P connection",
+    "numVotes": 1
+  }, {"answerID": "...was developed by Microsoft", "numVotes": 0}],
+  "lecturerSolution": ["...enables browsers to establish a direct P2P connection"],
+  "type": "mc"
+}, {
+  "questionID": "Please rate this performance:\n1 = Very poor, 10 = Excellent",
+  "peerIDsVoted": [5007237],
+  "studentAnswers": [{"answerID": 5, "numVotes": 1}],
+  "lecturerSolution": "",
+  "type": "scale"
+}, {
+  "questionID": "1. What did you like about this car?\n2. Can it get any better?",
+  "peerIDsVoted": [5007237],
+  "studentAnswers": [{"answerID": "This is a test", "numVotes": 1}],
+  "lecturerSolution": "",
+  "type": "open"
+}]

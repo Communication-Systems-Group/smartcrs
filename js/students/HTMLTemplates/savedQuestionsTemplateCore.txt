@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Saved Lecturer Questions</title>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" rel="script" type="text/javascript"></script>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+            integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+            crossorigin="anonymous"></script>
+    <title>SmartCRS 2.0 - Saved Questions</title>
+    <style>
+        .panel {
+            border-bottom: 0;
+            box-shadow: 0 0 0 0;
+            border-left: 0;
+            border-right: 0;
+        }
+
+        .panel-body {
+            padding: 0;
+        }
+
+        button.list-group-item {
+            width: 100%;
+            border-left: 0;
+            border-right: 0;
+        }
+    </style>
+</head>
+<body></body>
+</html>

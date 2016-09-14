@@ -1,0 +1,45 @@
+{
+  "MCQuestion#1": {
+    "questionID": "MCQuestion#1",
+    "studentAnswers": [
+      {
+        "answerID": "AnswerOption#1",
+        "numVotes": 0
+      },
+      {
+        "answerID": "AnswerOption#2",
+        "numVotes": 1
+      }
+    ],
+    "solution": [
+      "AnswerOption#1"
+    ],
+    "type": "Mc"
+  },
+  "OpenQuestion#1": {
+    "questionID": "OpenQuestion#1",
+    "studentAnswers": [
+      {
+        "answerID": "Answer:OpenQuestion#1",
+        "numVotes": 0
+      },
+      {
+        "answerID": "answerfromstudent",
+        "numVotes": 1
+      }
+    ],
+    "solution": "Answer:OpenQuestion#1",
+    "type": "Open"
+  },
+  "RatingQuestion#1": {
+    "questionID": "RatingQuestion#1",
+    "studentAnswers": [
+      {
+        "answerID": 5,
+        "numVotes": 1
+      }
+    ],
+    "solution": "",
+    "type": "Rating"
+  }
+}

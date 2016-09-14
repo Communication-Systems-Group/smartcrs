@@ -1,0 +1,312 @@
+.connectButtonColor {
+    background-color: hsl(110, 56%, 16%) !important; background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#398f28", endColorstr="#193f11"); background-image: -khtml-gradient(linear, left top, left bottom, from(#398f28), to(#193f11)); background-image: -moz-linear-gradient(top, #398f28, #193f11); background-image: -ms-linear-gradient(top, #398f28, #193f11); background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #398f28), color-stop(100%, #193f11)); background-image: -webkit-linear-gradient(top, #398f28, #193f11); background-image: -o-linear-gradient(top, #398f28, #193f11); background-image: linear-gradient(#398f28, #193f11); border-color: #193f11 #193f11 hsl(110, 56%, 11%); color: #fff !important; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33); -webkit-font-smoothing: antialiased;
+}
+
+.round-badge {
+    margin-left: 10%;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.btn-circle {
+    border-radius: 50%;
+    padding: 0.1em;
+    width:1.8em;
+}
+
+#buttonAddNewQuestion {
+    display: block;
+}
+
+#qTablePanel .panel-body {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+#questionsControlTable th {
+    text-align: center;
+}
+
+#questionsControlTable td {
+    text-align: center;
+    max-width: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+#questionsControlTable tbody {
+    overflow-y: scroll;
+    height: 200px;
+    width: 100%;
+}
+
+/*.qTextColumn, #questionHeader {*/
+    /*width: 135px;*/
+/*}*/
+
+.qIDColumn, #idHeader  {
+    width: 40px;
+}
+
+.qTypeColumn, #typeHeader {
+    width: 100px;
+}
+
+.qShareColumn, .qStatsColumn, #shareHeader, #statsHeader {
+    width: 100px;
+}
+
+.votesPerStudentColumn, #votesPerStudHeader {
+    width: 70px;
+}
+
+.deleteQuestionColumn, #deleteQuestionHeader {
+    width: 50px;
+}
+
+#emptyTableTR {
+    text-align: center;
+    font-size: 2em;
+    opacity: 0.6;
+}
+
+#emptyTableTD {
+    vertical-align: middle;
+}
+
+.deleteQuestionBtn, .deleteQuestionBtn:hover {
+    color: indianred;
+    font-size: 40px;
+}
+
+#questionAddedAlertArrow {
+    font-size: 3em;
+    line-height: 20px;
+}
+
+.navBarBg {
+    background-color: #F0F8FF;
+}
+
+.mcTrueFalseToggle {
+    padding-left: 10px;
+}
+
+.navBarButtons {
+    margin: 5px;
+    font-weight: 600;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.noPadding {
+    padding: 0;
+}
+
+.displayNone {
+    display: none;
+}
+
+#fieldThreshold {
+    width: 70px;
+}
+
+.input-group-addon {
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.inactive-mcOption {
+    opacity: 0.5;
+}
+
+.break-word {
+    overflow-wrap: break-word;
+}
+
+#lecturerMainContainer {
+    margin-top: 1%;
+}
+
+#studentsMainContainer {
+    margin-top: 1%;
+}
+
+.glyphicon-remove {
+    color: indianred;
+}
+
+.statsLabel {
+    width: 10em;
+    height: 2em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+#mainView {
+    margin-left: 1em;
+}
+
+/* lecturerRun stats button */
+.myStatsButton {
+    line-height: 1.8em;
+}
+
+/* fileUpload table */
+.myTableButtons {
+    vertical-align: baseline;
+    padding: 2px 12px;
+}
+
+/* lecuterRun start/stop toggle button */
+.myToggleButton {
+    vertical-align: baseline;
+    padding: 0px 0px;
+    line-height: 0px;
+}
+
+/* required for students */
+.listCounter {
+    background: #444;
+    color: #fff;
+    border-radius: 8px;
+    width: 28px;
+    text-align: center;
+    display: block;
+    margin-top: 1px;
+    line-height: 30px;
+    float: right;
+}
+
+/* responseWindow */
+.responseWindowHeader {
+    font-size: x-large;
+}
+
+/* responseWindow */
+.centerContent {
+    position: absolute;
+    right: 50%
+}
+
+.horizCenterText {
+    text-align: center;
+}
+
+.verticalCenterMcOption {
+    vertical-align: 4em;
+}
+
+/* responseWindow */
+.wordWrap {
+    word-wrap: break-word;
+}
+
+.submitResponseButton {
+    background: auto;
+    background-image: none;
+    background-color: #2BB109;
+}
+
+/* Used to highlight student question list */
+.webix_unit_header {
+    color: #cb4c26;
+    font-style: italic;
+}
+
+.buttonsStudentList {
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+    font-weight: bold;
+    color: lightslategray;
+}
+
+.buttonsStudentList:hover {
+    color: limegreen;
+}
+
+/* lecturerRun upVoted: highlight votes*/
+.highlightVotes {
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    float: right;
+    background-color: #444;
+    color: white;
+    border-radius: 3px;
+}
+
+.webix_loading_overlay {
+    font-size: 1.4em;
+    opacity: 0.6;
+    z-index: 10;
+}
+
+.webix_loading_overlay_highlighted_text {
+    color: #008000;
+    font-size: 2em;
+}
+
+.textColorCorrectCharts {
+    color: #008000;
+}
+
+.webix_list_alreadyVoted-color_item {
+    background-color: #D3D3D3;
+}
+
+.webix_list_alreadyVoted-color2_item {
+    background-color: #d35f00;
+}
+
+.buttonCloseModal {
+    float: right;
+}
+
+/* Copied from webix.css because air.css doesn't have it*/
+
+/* wichtig */
+.webix_popup_title {
+    color: #666 !important;
+    background: #e5f1ff !important;
+    font-size: 15px;
+    text-shadow: none !important;
+}
+
+.webix_modal_box {
+    background: white !important;
+}
+
+.floatRight {
+    float: right;
+}
+
+.hideLoadButtons {
+    width: 0;
+    height: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.connected {
+    background-color: #008000;
+}
+
+.disconnected {
+    background-color: #ff0000;
+}
+
+.webix_item_tab {
+    background-image: none;
+    background: #BAD8FF;
+}
+
+.webix_item_tab.webix_selected {
+    background-image: none;
+    background: #99C6FF;
+}

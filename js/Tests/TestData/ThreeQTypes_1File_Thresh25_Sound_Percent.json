@@ -1,0 +1,49 @@
+{
+  "lectureName": "TestData",
+  "questions": [
+    {
+      "type": "mc",
+      "question": "WebRTC...",
+      "possibleAnswers": [
+        {
+          "answer": "...requires browser plugins",
+          "correct": false
+        },
+        {
+          "answer": "..is a client-server API",
+          "correct": false
+        },
+        {
+          "answer": "...enables browsers to establish a direct P2P connection",
+          "correct": true
+        },
+        {
+          "answer": "...was developed by Microsoft",
+          "correct": false
+        }
+      ],
+      "solution": [
+        "...enables browsers to establish a direct P2P connection"
+      ],
+      "index": 1
+    },
+    {
+      "type": "scale",
+      "question": "Please rate this performance:\n1 = Very poor, 10 = Excellent",
+      "solution": "",
+      "scaleStart": 1,
+      "scaleEnd": 10,
+      "scaleStep": 1,
+      "index": 2
+    },
+    {
+      "type": "open",
+      "question": "1. What did you like about this car?\n2. Can it get any better?",
+      "solution": "",
+      "index": 3
+    }
+  ],
+  "threshold": "25",
+  "thresholdType": "Percent",
+  "notification": "Play Sound"
+}

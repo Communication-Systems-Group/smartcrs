@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Saved Lecturer Questions</title>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" rel="script" type="text/javascript"></script>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+            integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+            crossorigin="anonymous"></script>
+    <title>SmartCRS 2.0 - Saved Questions</title>
+    <style>
+        .panel {
+            border-bottom: 0;
+            box-shadow: 0 0 0 0;
+            border-left: 0;
+            border-right: 0;
+        }
+
+        .panel-body {
+            padding: 0;
+        }
+
+        button.list-group-item {
+            width: 100%;
+            border-left: 0;
+            border-right: 0;
+        }
+    </style>
+</head>
+
+<div class="container-fluid">
+    <div class="row text-center">
+        <div class="col-md-12">
+            <h1><u>Lecturer Questions</u></h1>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-md-12 openCol">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><h3>A Public Health Institute study released in April showed that 95% of school districts in this state sell fast food items to the students. What three fast-food providers rank as the top brands sold in California schools?</h3></div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-12 mcCol">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><h3>Which 5-letter word can refer to a spicy Latin dance or a spicy Latin sauce?</h3></div>
+                    <div class="panel-body">
+                        <div class="list-group btn-group">
+                            <button type="button" class="list-group-item">SALSA</button>
+                            <button type="button" class="list-group-item">ALSAS</button>
+                            <button type="button" class="list-group-item">SASLA</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-12 ratingCol">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><h3>When the product which we call ice cream first made its appearance in the English language, around the year 1673, it wasn&#x27;t called ice cream, as we know it today. What did it cost back then in USD?</h3></div>
+                    <div class="panel-body">
+                        <label id="rangeInputLabel" for="rangeInput">5-25, step-size:
+                            5</label>
+                        <input id="rangeInput" type="range" min="5" max="25" step="5"
+                               oninput="rangeOutput.value=value"/>
+                        <output id="rangeOutput"></output>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</html>

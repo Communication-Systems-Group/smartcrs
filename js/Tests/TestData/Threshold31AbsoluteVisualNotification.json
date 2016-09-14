@@ -1,0 +1,8 @@
+{
+  "threshold": "31",
+  "thresholdType": "Absolute",
+  "notification": "Visual notification",
+  "questions": [],
+  "lecturerQuestionStats": {},
+  "comments": []
+}

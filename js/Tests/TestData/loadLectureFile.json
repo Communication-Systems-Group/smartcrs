@@ -1,0 +1,52 @@
+{
+  "threshold": "31",
+  "thresholdType": "Percent",
+  "notification": "Play Sound",
+  "questions": [
+    {
+      "type": "mc",
+      "question": "McQuestion",
+      "possibleAnswers": [
+        {
+          "answer": "1",
+          "correct": true
+        },
+        {
+          "answer": "2",
+          "correct": false
+        }
+      ],
+      "solution": [
+        "1"
+      ],
+      "index": 1
+    },
+    {
+      "type": "scale",
+      "question": "Rating Question",
+      "solution": "",
+      "scaleStart": 1,
+      "scaleEnd": 100,
+      "scaleStep": 1,
+      "index": 2
+    },
+    {
+      "type": "open",
+      "question": "Open Question",
+      "solution": "Open Question Answer",
+      "index": 3
+    }
+  ],
+  "lecturerQuestionStats": {},
+    "comments": [
+        {
+            "id": 1,
+            "created": "2015-10-01",
+            "content": "Lorem ipsum dolort sit amet",
+            "fullname": "Simon Powell",
+            "upvoteCount": 2,
+            "userHasUpvoted": false,
+            "childs": []
+        }
+    ]
+}
